@@ -1,0 +1,24 @@
+<!-- python -m SimpleHTTPServer 8000 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+    <script src="https://d3js.org/d3-contour.v2.min.js"></script>
+    <title>Ozone Isopleth</title>
+    <link rel="stylesheet" href="Isopleth.css">
+</head>
+
+<body>
+    <div>Test 34.136398 -117.923897</div>
+    <form name="position">
+        Latitude: <input type="text" id="latitude" /> Longitude: <input type="text" id="longitude" />
+        <input type="button" id="btn" value="Generate" />
+    </form>
+    <div id="Isopleth"></div>
+    <script type="text/javascript" src="./Isopleth.js"></script>
+</body>
+
+</html>
