@@ -1,0 +1,26 @@
+<!-- python -m SimpleHTTPServer 8000 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script type="text/javascript" src="../lib/d3-tip.min.js"></script>
+    <title>PM2.5 in North Carolina</title>
+    <link rel="stylesheet" href="figures.css">
+</head>
+
+<body>
+    <div id="stackbarchart"></div>
+    <script type="text/javascript" src="./stacked.js"></script>
+    <div id="piechart">Year: </div>
+    <script type="text/javascript" src="./piechart.js"></script>
+    <div id="linechart">Category: </div>
+    <!-- <script type="text/javascript" src="./linechart.js"></script> -->
+    <div id="ArcGIS"><img src="../ArcGIS/LDGV.png"></div>
+    <script type="text/javascript" src="./linechart.js"></script>
+</body>
+
+</html>

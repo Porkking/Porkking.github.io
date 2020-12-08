@@ -1,24 +1,58 @@
-<!-- python -m SimpleHTTPServer 8000 -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <title>HomePage</title>
+    <link rel="stylesheet" href="./index.css">
     <meta charset="utf-8">
-    <script src="https://d3js.org/d3.v6.min.js"></script>
-    <script src="https://d3js.org/d3-array.v2.min.js"></script>
-    <script src="https://d3js.org/d3-contour.v2.min.js"></script>
-    <title>Ozone Isopleth</title>
-    <link rel="stylesheet" href="Isopleth.css">
 </head>
 
 <body>
-    <div>Test 34.136398 -117.9238972</div>
-    <form name="position">
-        Latitude: <input type="text" id="latitude" /> Longitude: <input type="text" id="longitude" />
-        <input type="button" id="btn" value="Generate" />
-    </form>
-    <div id="Isopleth"></div>
-    <script type="text/javascript" src="./Isopleth.js"></script>
+    <header>
+        <!-- container -->
+        <div class="container">
+            <div class="pageTitle"></div>
+
+            <nav class="site-nav">
+                <ul class="group">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./research.html">Research</a></li>
+                    <li><a href="./funny.html">Funny Things</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- /container -->
+
+    </header>
+
+    <div class="content-area group">
+
+        <!-- container -->
+        <div class="container">
+            <div class="main-area">
+                <h2>Introduction</h2>
+                <p>Hello, I am Zongrun. I am currently a Georgia Tech PhD student in Ted Russell's group. I am interested in air pollution and modeling.
+                </p>
+                <h2>Biography</h2>
+                <ul>
+                    <li>Georgia Institute of Technology</li>
+                    <ul>
+                        <li>Master student of Computational Science and Engineering</li>
+                        <li>PhD student of Environmental Engineering</li>
+                    </ul>
+                    <li>Nankai University</li>
+                    <ul>
+                        <li>Bachelor of Environmental Science</li>
+                        <li>Bachelor of Mathematics and Applied Mathematics</li>
+                    </ul>
+                </ul>
+                <h2>Contact Me</h2>
+                <p>Email: zli867@gatech.edu</p>
+                <div id="buzz"><img src="./images/buzz.jpg" height="300px"></div>
+                <!-- /container -->
+
+            </div>
+        </div>
 </body>
 
 </html>

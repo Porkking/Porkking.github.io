@@ -1,0 +1,37 @@
+#stackbarchart {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+
+.d3-tip {
+    line-height: 1;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+#piechart {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+
+#linechart {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+
+#ArcGIS {
+    width: 1000px;
+    height: 600px;
+    background: cadetblue;
+    margin: auto;
+}
+
+#ArcGIS img {
+    width: 1000px;
+    height: 600px;
+}
