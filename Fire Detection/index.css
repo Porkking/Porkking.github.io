@@ -1,0 +1,36 @@
+svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.south {
+    fill: none;
+    stroke: black;
+    stroke-width: 1;
+}
+
+.conc-circle {
+    fill: black;
+}
+
+.d3-tip {
+    line-height: 1;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+
+#figure {
+    height: 800px;
+}
+
+#Table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin: auto;
+}
